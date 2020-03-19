@@ -15,6 +15,7 @@ import { ProductModule } from './product/product.module';
     database: 'ncc_carts',
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
     synchronize: true,
+    
   }),
   CartModule,
   ProductModule],
